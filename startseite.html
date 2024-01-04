@@ -1,0 +1,436 @@
+<html lang="de">
+<head>
+    <title>Björn Köster Consulting</title>
+    <meta name="keywords" content="Björn Köster Consulting">
+    <meta name="description" content="Beratung von Unternehmen und Führungskräften in Fragen der Transformation, Digitalisierung, IT und Innovation">
+    <style>
+      html {
+        font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        box-sizing: border-box;
+      }
+ 
+      body {
+        background: #fff;
+        margin-left: 0;
+        margin-right: 0;
+        color: #333;
+        font-size: 15px;
+        font-weight: 300;
+      }
+ 
+      p {
+        margin: 5px 0;
+        line-height: 25px;
+      }
+ 
+      a {
+        text-decoration: none;
+        color: #118DEF;
+      }
+ 
+      h1 {
+        font-size: 1.25rem;
+      }
+ 
+      b, strong {
+        font-weight: 400;
+      }
+ 
+      /* ========================================== */
+      /* HEADER UND NAVIGATION */
+      header {
+        position: relative;
+        margin: 20px auto 30px;
+        width: auto;
+        max-width: 800px;
+        height: auto;
+        text-align: center;
+      }
+ 
+      nav {
+        z-index: 9999;
+        background-color: #fff;
+        margin-top: 45px;
+      }
+ 
+      nav ul {
+        padding: 0;
+        list-style: none;
+      }
+ 
+      nav ul li {
+        display: inline-block;
+        padding: 3px 20px;
+        color: #888;
+      }
+ 
+      nav ul li a {
+        transition: color .5s ease;
+        font-weight: 400;
+      }
+ 
+      nav ul li a:hover,
+      nav ul li a:active {
+        color: #333;
+      }
+ 
+      /* ========================================== */
+      /* BLOECKE / BEREICHE DER SEITE */
+      section {
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+      }
+ 
+      #block-1 {
+ 
+      }
+ 
+      #block-2 {
+ 
+      }
+ 
+      #block-3 {
+ 
+      }
+ 
+      #block-4 {
+ 
+      }
+ 
+      section:nth-child(even) {
+        background-color: #eef2f5;
+      }
+ 
+      figure {
+        margin: 0;
+      }
+ 
+      figure img {
+        max-width: 100%;
+      }
+ 
+      .multicolumn {
+        -webkit-perspective: 1; /* Anzahl Spalten */
+        -webkit-column-count: 2; /* Ch, Saf, And, BB  */
+        -moz-column-count: 2; /* Fx */
+        column-count: 2; /* IE 10, Op 11.1+ */ /* Abstand Spalten */
+        -webkit-column-gap: 4em;
+        -moz-column-gap: 4em;
+        column-gap: 4em;
+      }
+ 
+      .one-column {
+        margin-bottom: 60px;
+      }
+ 
+      .one-column p {
+        margin-bottom: 1.5rem;
+      }
+ 
+      article {
+        overflow: hidden;
+        width: 50%;
+        display: table-cell;
+      }
+ 
+      article h3 {
+        margin: 10px 0;
+      }
+ 
+      figcaption {
+        display: inline-block;
+        line-height: 25px;
+        margin-top: 20px;
+        max-width: 75%;
+      }
+ 
+      figcaption span {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: 400;
+      }
+ 
+      .callout {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0 10px 30px;
+        width: auto;
+        max-width: 800px;
+      }
+ 
+      .callout a {
+        text-decoration: underline;
+      }
+ 
+      .callout a:hover {
+        color: #333;
+      }
+ 
+      .callout > h2 {
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+      }
+ 
+      .callout > ul {
+        padding-left: 1rem;
+      }
+ 
+      .callout > ul li {
+        margin: 5px 0;
+      }
+ 
+      .definition-list dt {
+        margin-bottom: 0.21rem;
+        font-weight: bold;
+      }
+ 
+      .definition-list dd {
+        margin: 0 0 1.5rem 0;
+      }
+ 
+      .secondary-heading {
+        font-weight: normal;
+        font-size: 15px;
+        color: #118DEF;
+      }
+ 
+      .competency-heading {
+        margin-top: 60px;
+        font-weight: 400;
+      }
+ 
+      /* Lebenslaufbild oben */
+      .cliped-image {
+        border-radius: 100%;
+        /* ff */
+        /* Clip-Path als Alternative
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        */
+      }
+ 
+      .zitat-image {
+        display: inline-block;
+        padding-right: 2px;
+        width: 45px;
+        height: 45px;
+        vertical-align: top;
+        line-height: 50px;
+        text-align: center;
+        background: #118DEF;
+      }
+ 
+      .zitat-image + p {
+        display: inline-block;
+        margin: -5px 0 0 20px;
+        width: 90%;
+      }
+ 
+      .section-arrow {
+        position: relative;
+        top: -20px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: #a0adb7;
+        border-radius: 50%;
+        line-height: 40px !important;
+        text-align: center;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+      }
+ 
+      .back-to-top-button {
+        position: relative;
+        top: -35px;
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        background: #118DEF;
+        border-radius: 50%;
+        line-height: 70px !important;
+        text-align: center;
+        color: #fff;
+      }
+ 
+      .back-to-top-button:hover {
+        text-decoration: none;
+      }
+ 
+      .back-to-top-button span {
+        position: relative;
+        top: 5px;
+        font-size: 28px;
+        font-weight: bold;
+      }
+ 
+      /* ========================================== */
+      /* FOOTER */
+      footer {
+        clear: both;
+        position: relative;
+        margin: 60px auto 0;
+        width: auto;
+        height: 100px;
+        text-align: center;
+        background: #333;
+        color: #7d7d7d;
+      }
+ 
+      footer a:hover {
+        color: initial;
+        text-decoration: underline;
+      }
+ 
+      footer .footer-copyright {
+        margin: -40px auto 0; /* -40px --> gleicher Wert wie bei .back-to-top-button */
+        max-width: 800px;
+        text-align: left;
+        padding-left: 10px;
+      }
+ 
+      footer i.rotate {
+        /* Pfeil nach oben - rotieren */
+        -webkit-transform: rotate(180deg); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+        -ms-transform: rotate(180deg); /* IE 9 */
+        transform: rotate(180deg); /* IE 10, Fx 16+, Op 12.1+ */
+      }
+ 
+      /* ========================================== */
+      /* HELFER-KLASSEN */
+      .text-center {
+        text-align: center;
+      }
+ 
+      .text-left {
+        text-align: left !important;
+      }
+ 
+      .clear {
+        clear: both;
+      }
+ 
+      .mt30 {
+        margin-top: 35px !important;
+      }
+ 
+      .motto {
+        margin-bottom: 50px;
+      }
+ 
+      .hr-small {
+        margin: -20px auto 30px;
+        width: 40px;
+        border: solid 1px #118DEF;
+      }
+ 
+      .font-licence {
+        margin-top: 10px;
+        font-size: 11px;
+      }
+ 
+      /* ========================================== */
+      /* ICONS */
+      .icons-social-media {
+        list-style: none;
+        padding-left: 0;
+      }
+ 
+      .icons-social-media > li {
+        display: inline-block;
+        padding: 0 7px 0 7px;
+        color: #999999;
+        font-size: 14px;
+      }
+ 
+      /* ========================================== */
+      /* MEDIA QUERIES FUER RESPONSIVE LAYOUT */
+      @media (max-width: 726px) {
+        .motto {
+          text-align: center;
+        }
+ 
+        .motto p {
+          margin-top: 10px;
+        }
+      }
+ 
+      @media (max-width: 641px) {
+        article {
+          display: block;
+          width: 100%;
+        }
+ 
+        figure {
+          margin: 30px auto 0;
+        }
+ 
+        figcaption {
+          display: block;
+          width: 55%;
+          margin: 0 auto;
+        }
+ 
+        .multicolumn {
+          -webkit-column-gap: 2em;
+          -moz-column-gap: 2em;
+          column-gap: 2em;
+        }
+      }
+    </style>
+</head>
+<body>
+<!-- ============================================================================================================================== -->
+<!-- HEADER -->
+<header id="header-start">
+    <img src="https://raw.githubusercontent.com/bjko/bk-c/main/logo_bjoern-koester-consulting_380px.jpg" alt="Björn Köster Consulting" class="cliped-image">
+    <ul class="icons-social-media">
+        <li><a href="https://www.linkedin.com/company/bk-c" title="LinkedIn" target="_blank">LinkedIn</a></li>
+    </ul>
+    
+</header>
+
+
+<!-- ============================================================================================================================== -->
+<!-- BLOCK 4 -->
+<section id="block-4">
+    <span class="section-arrow">&#709;</span>
+    <div class="callout text-center">
+        <h2>Kontakt</h2>
+        <hr class="hr-small"/>
+        <p>
+            <span>Björn Köster Consulting</span> <br>
+            <span>Dorfstr. 31a</span> <br>
+            <span>53844 Troisdorf</span> <br>
+            <span>Deutschland</span> <br>
+        </p>
+        <p class="mt30">
+            <span><a href="mailto:kontakt@bk-c.de">kontakt@bk-c.de</a></span>
+        </p>
+        <p class="mt30" style="text-align:left;">
+            Bei Aufruf meines Webangebots [bk-c.de] werden von meinem Domain-Hoster
+            [<a href="http://united-domains.de" target="_blank">united-domains AG</a>]
+            aus Sicherheitsgründen Zugriffe für maximal 14 Tage in Form des standard Apache LogFormats gespeichert:<br>
+            Zieldomain, IP, Datum+Zeit, Methode, Referrer (falls existent), Clientversion <br>
+            Spätestens nach 14 Tagen werden die Zugriffsdaten wieder gelöscht (auch etwaige Backups dieser Daten sind dann
+            gelöscht).<br>
+            Die kurzzeitige Speicherung der Daten ist zur Wahrung der berechtigten Interessen des Verantwortlichen und Dritter
+            erforderlich (Art. 6 Abs. 1 f) DSGVO).
+        </p>
+    </div>
+</section>
+<!-- ============================================================================================================================== -->
+<!-- FOOTER -->
+<footer>
+    <a href="#header-start" class="back-to-top-button"><span>&#94;</span></a>
+    <div class="footer-copyright">
+        &copy; Björn Köster Consulting
+    </div>
+</footer>
+</body>
